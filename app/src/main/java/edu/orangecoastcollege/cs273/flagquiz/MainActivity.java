@@ -167,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
      * @param v
      */
     public void makeGuess(View v) {
+        mTotalGuesses++;
         // TODO: Downcast the View v into a Button (since it's one of the 4 buttons)
         Button clickedButton = (Button) v;
 
@@ -224,10 +225,5 @@ public class MainActivity extends AppCompatActivity {
 
         // TODO: Else, the answer is incorrect, so display "Incorrect Guess!" in red
         // TODO: and disable just the incorrect button.
-
-
-
     }
-
-
 }
